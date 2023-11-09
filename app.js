@@ -5,6 +5,8 @@ document.getElementById("oppNameCont").style.display="none";
 document.getElementById("valueCont").style.display="none";
 document.getElementById("whosTurn").style.display="none";
 
+console.log("coucou");
+
 const socket=io();
 
 document.getElementById("find").addEventListener("click",function(e) {
